@@ -1,0 +1,12 @@
+{
+    "development": {
+        "PORT": 3001,
+        "MONGODB_URI": "mongodb://localhost:27017/ExpenseService",
+        "JWT_SECRET_KEY": "testSecretKey"
+    },
+    "test": {
+        "PORT": 3001,
+        "MONGODB_URI": "mongodb://localhost:27017/ExpenseServiceTest",
+        "JWT_SECRET_KEY": "testSecretKey"
+    }
+}
